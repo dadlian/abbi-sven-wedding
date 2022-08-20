@@ -1,0 +1,15 @@
+.page{
+  background-color: #F1EFDF;
+}
+
+.contents{
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.title{
+  width: 100%;
+  color: #5C6244;
+  text-align: center;
+}

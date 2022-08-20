@@ -1,0 +1,15 @@
+.page{
+  background-color: #CBC1A6;
+}
+
+.contents{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+}

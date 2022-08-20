@@ -1,0 +1,159 @@
+@font-face{
+  font-family: 'Amsterdam Four';
+  src: url('../fonts/Amsterdam_Four_ttf_400.ttf');
+}
+
+@font-face{
+  font-family: 'Agrandir';
+  src: url('../fonts/Agrandir-Thin.ttf');
+}
+
+@font-face{
+  font-family: 'Agrandir Bold';
+  src: url('../fonts/Agrandir-Bold.otf');
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+a{
+  color: #5C6244;
+}
+
+.page{
+  width: 100%;
+  min-height: 100vh;
+}
+
+.main_menu{
+  width: 1024px;
+  max-width: 100%;
+  margin:0 auto;
+  padding:15px 0px;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.main_menu a{
+  color: #5C6244;
+  text-decoration: none;
+  display: block;
+  padding: 7.5px 10px;
+  font-size:1.25em;
+  font-family: 'Agrandir', sans-serif;
+  margin-right: 25px;
+  transition:border-bottom 0.5s;
+  border-bottom:2px solid rgba(0,0,0,0);
+}
+
+.main_menu a:hover,
+.main_menu a.active{
+  border-bottom:2px solid #5C6244;
+}
+
+.title{
+  color: #FFFFFF;
+  margin: 0px;
+  font-weight: normal;
+  font-family: 'Agrandir', sans-serif;
+  font-size: 4em;
+  margin-bottom: 25px;
+}
+
+.text{
+  font-family: 'Agrandir', sans-serif;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  color: #5C6244;
+}
+
+.text p{
+  margin-top: 0px;
+}
+
+.text p.smaller{
+  font-size: 0.85em;
+}
+
+.button{
+  color: #FFFFFF;
+  background-color: #5C6244;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 15px 0px;
+  font-size:1.25em;
+  font-family: 'Agrandir', sans-serif;
+  transition: 0.2s;
+}
+
+.button:hover{
+  opacity: 0.75;
+}
+
+.tiles{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1024px;
+  margin-top: 75px;
+}
+
+.tile{
+  width: 33%;
+  font-family: 'Agrandir', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.tile.feature{
+  width: 66%;
+  justify-content: center;
+  font-size: 1.3em;
+}
+
+.tile .heading{
+  text-transform: uppercase;
+  font-family: 'Agrandir Bold', sans-serif;
+  color: #5C6244;
+  margin-bottom: 10px;
+  font-size: 1em;
+  letter-spacing: 0.3em;
+}
+
+.tile .info{
+  font-size: 1.4em;
+}
+
+.tile .submenu{
+  padding: 0px;
+  margin: 0px auto;
+  list-style: none;
+  text-align: left;
+  width: 250px;
+  margin-top: 10px;
+}
+
+.tile .submenu li{
+  margin-bottom: 10px;
+}
+
+.tile .submenu li a{
+  text-decoration: none;
+  color: #5C6244;
+  border-bottom:2px solid #F1EFDF;
+  transition-duration: 0.5s;
+  padding-bottom: 5px;
+}
+
+.tile .submenu li a:hover{
+  border-bottom:2px solid #5C6244;
+}
