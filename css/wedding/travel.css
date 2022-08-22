@@ -1,0 +1,45 @@
+.page{
+  background-color: #F1EFDF;
+}
+
+.contents{
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.columns{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  width: 100%;
+  color: #5C6244;
+  text-align: center;
+}
+
+.heading{
+  color: #dcbf85;
+  text-align: center;
+  font-family: 'Agrandir Bold', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 1em;
+  letter-spacing: 0.3em;
+}
+
+.column{
+  width: calc(50% - 20px);
+}
+
+p{
+  font-family: 'Agrandir', sans-serif;
+  text-align: center;
+  font-size: 1.44em;
+  margin-top: 0px;
+}
+
+p.bold{
+  font-family: 'Agrandir Bold', sans-serif;
+}

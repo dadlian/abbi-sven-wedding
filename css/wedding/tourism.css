@@ -3,19 +3,9 @@
 }
 
 .contents{
-  display: flex;
-  flex-wrap: wrap;
   width: 1200px;
   max-width: 100%;
   margin: 0 auto;
-}
-
-.title{
-  width: 50%;
-}
-
-.text{
-  width: 50%;
 }
 
 img{

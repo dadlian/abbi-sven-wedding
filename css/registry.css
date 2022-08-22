@@ -5,15 +5,9 @@
 .contents{
   display: flex;
   justify-content: space-between;
-  width: 1024px;
+  width: 1200px;
   max-width: 100%;
   margin: 0 auto;
-}
-
-.column{
-  width: calc(50% - 25px);
-  display: flex;
-  flex-direction: column;
 }
 
 .column .button{
