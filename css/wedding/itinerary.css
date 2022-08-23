@@ -1,0 +1,60 @@
+.page{
+  background-image: url('../../media/home_bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_menu a{
+  color: #FFFFFF;
+}
+
+.main_menu a:hover,
+.main_menu a.active{
+  border-bottom:2px solid #FFFFFF;
+}
+
+.contents{
+  width: 850px;
+  margin: 0 auto;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title{
+  width: 100%;
+  color: #5C6244;
+  text-align: center;
+}
+
+.itinerary{
+  width: 100%;
+  background-color: #5C6244;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0px;
+  padding-bottom: 0px;
+  font-family: 'Agrandir', sans-serif;
+}
+
+.event{
+  display: flex;
+  margin-bottom: 25px;
+  width: 500px;
+  font-size: 1.25em;
+}
+
+.event .time{
+  text-transform: uppercase;
+  width: 100px;
+  font-family: 'Agrandir Bold', sans-serif;
+}
+
+.event .name{
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
