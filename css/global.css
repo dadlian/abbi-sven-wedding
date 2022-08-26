@@ -53,9 +53,48 @@ a{
   border-bottom:2px solid rgba(0,0,0,0);
 }
 
+.main_menu a.close{
+  display: none;
+  font-family: 'Agrandir Bold', sans-serif;
+}
+
 .main_menu a:hover,
 .main_menu a.active{
   border-bottom:2px solid #5C6244;
+}
+
+#mobile_menu{
+  display: none;
+  text-align: right;
+  width: 100%;
+  padding: 20px;
+}
+
+.wedding_menu{
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.wedding_menu a{
+  font-family: 'Agrandir', sans-serif;
+  color: #FFFFFF;
+  background-color: #5C6244;
+  text-decoration: none;
+  padding:10px 15px;
+  border-radius: 10px;
+}
+
+.wedding_menu a:hover{
+  border-bottom: 0px;
+  opacity: 0.75;
+  transition: 0.2s;
+}
+
+.wedding_menu a.active{
+  font-family: 'Agrandir Bold', sans-serif;
 }
 
 .column{
@@ -163,4 +202,67 @@ a{
 
 .tile .submenu li a:hover{
   border-bottom:2px solid #5C6244;
+}
+
+@media only screen and (max-width: 800px) {
+  .page{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .main_menu{
+    flex-direction: column;
+    background-color: #5C6244;
+    width: 275px;
+    max-width: 100%;
+    position: absolute;
+    top: 0px;
+    right: -275px;
+    z-index: 9999;
+    height: 100vh;
+    padding: 0px;
+    transition-duration: 0.5s;
+    margin-bottom: 0px;
+  }
+
+  .main_menu.active{
+    right: 0px;
+    transition-duration: 0.5s;
+  }
+
+  .main_menu a{
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    outline: none;
+  }
+
+  .main_menu a.close{
+    display: block;
+    border-bottom: 0px !important;
+    text-align: right;
+    padding-bottom: 0px;
+    margin: 0px;
+  }
+
+  .main_menu a:hover,
+  .main_menu a.active{
+    border-bottom: 1px solid #FFFFFF;
+  }
+
+  #mobile_menu{
+    display: block;
+  }
+
+  #mobile_menu img{
+    width: 25px;
+  }
+
+  .contents{
+    width: 100%p
+  }
 }

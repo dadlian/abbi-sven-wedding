@@ -5,6 +5,10 @@
   background-size: cover;
 }
 
+.main_menu{
+  margin-bottom: 0px;
+}
+
 .main_menu a{
   color: #FFFFFF;
 }
@@ -21,6 +25,17 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.wedding_menu_wrapper{
+  background-color: #FFFFFF;
+  width: 885px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.wedding_menu{
+  margin-bottom: -5px;
 }
 
 .title{

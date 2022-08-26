@@ -43,3 +43,7 @@ p{
 p.bold{
   font-family: 'Agrandir Bold', sans-serif;
 }
+
+.main_menu{
+  margin-bottom: 10px;
+}
