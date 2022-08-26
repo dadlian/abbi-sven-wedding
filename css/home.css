@@ -2,13 +2,13 @@
   background-image: url('../media/home_bg.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1575px 100%;
   display: flex;
   justify-content: center;
 }
 
 .contents{
-  padding: 115px;
+  padding: 100px 115px;
 }
 
 .home_title{
