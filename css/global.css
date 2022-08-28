@@ -30,6 +30,7 @@ a{
 .page{
   width: 100%;
   min-height: 100vh;
+  padding:0px 15px;
 }
 
 .main_menu{
@@ -67,7 +68,7 @@ a{
   display: none;
   text-align: right;
   width: 100%;
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 .wedding_menu{
@@ -148,6 +149,7 @@ a{
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1200px;
+  max-width: 100%;
   margin-top: 75px;
 }
 
@@ -263,6 +265,41 @@ a{
   }
 
   .contents{
-    width: 100%p
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .column{
+    width: 100%;
+  }
+
+  .title{
+    font-size: 3.5em;
+  }
+
+  .tiles{
+    margin-top: 40px;
+  }
+
+  .tile{
+    width: 100%;
+  }
+
+  .tile.feature{
+    width: 100%;
+    padding-top: 0px;
+    font-size: 1.25em;
+  }
+
+  .wedding_menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .wedding_menu a{
+    margin-bottom: 10px;
+    text-align: center;
   }
 }

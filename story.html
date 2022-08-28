@@ -12,18 +12,21 @@
   <body>
     <div class='page'>
       <div id='main_menu' class='main_menu'>
-        <a onclick="closeMenu()" class='close'>x</a>
+        <a class='close'>
+          <span onclick="closeMenu()">x</span>
+        </a>
         <a href='/index.html'>Home</a>
         <a class='active' href='/story.html'>Our Story</a>
         <a href='/registry.html'>Registry</a>
         <a href='/wedding'>Our Wedding</a>
         <a href='/rsvp.html'>RSVP</a>
       </div>
-      <div onclick="openMenu()" id='mobile_menu'>
-        <img src='/media/hamburger.png' />
+      <div id='mobile_menu'>
+        <img onclick="openMenu()" src='/media/hamburger.png' />
       </div>
       <div class='contents'>
         <h1 class='title'>Our Story</h1>
+        <img class='banner' src='media/story.png' alt='our_story' />
         <div class='versions'>
           <div id='abbi' class='tab active' onclick="switchStory('abbi')">Abbi's Version</div>
           <div id='sven' class='tab' onclick="switchStory('sven')">Sven's Version</div>
@@ -42,12 +45,40 @@
           </div>
           <div id='sven_text' class='text'>
             <p>
-              Alternate text!
+              Sven and Abbi met at Cedar Grover Playing field one night, when
+              they both arrived for a game of Flag Football. After brief
+              introductions, Sven thought he'd impress Abbi by placing her
+              strong but unusual accent. "Are you from Newcastle?" he
+              confidently guessed.
+            </p>
+            <p>
+              So enamoured with Sven's charm and boyish good looks was Abbi,
+              that she humoured him even though he was miles off: "No Hull,
+              but you're close!"
+            </p>
+            <p>
+              Sven and Abbi played a few games of flag football together over
+              the following weeks, where despite her impressive speed, Abbi
+              could not have caught a cold, let alone the ball.
+            </p>
+            <p>
+              After games would wrap up Abbi would often detail her extensive
+              hunger to Sven. Thinking 10PM an odd time to eat, but always
+              ready to help, Sven would direct her to late-night eateries
+              around the island.
+            </p>
+            <p>
+              Sven, not being the most perceptive of people, didn't realise that
+              it was not food, but his company that Abbi was hungry for. Seeing
+              that subtly was not the route to Sven's heart, Abbi eventually
+              asked him to join her for a bite and chat after a game.
+            </p>
+            <p>
+              Dumbfounded by the offer, Sven quickly accepted and followed Abbi
+              to a nearby restaurant for their first date where they talked well
+              into the night. The rest is history...
             </p>
           </div>
-        </div>
-        <div class='footer'>
-          <img src='media/story.png' alt='our_story' />
         </div>
       </div>
     </div>

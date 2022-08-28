@@ -20,6 +20,7 @@
 
 .contents{
   width: 850px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 25px 0px;
   display: flex;
@@ -72,4 +73,36 @@
 .event .name{
   text-transform: uppercase;
   letter-spacing: 0.1em;
+}
+
+@media only screen and (max-width: 800px){
+  .wedding_menu_wrapper{
+    width: 100%;
+    background: none;
+    padding-top: 0px;
+  }
+
+  .event{
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .event .time{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  .event .name{
+    font-size: 0.9em;
+  }
+
+  .event .description{
+    font-size: 0.9em;
+  }
+
+  .event.no_bottom{
+    margin-bottom: 0px;
+  }
 }

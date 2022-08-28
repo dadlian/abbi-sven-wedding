@@ -38,3 +38,10 @@ p{
 .main_menu{
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 800px){
+  p{
+    margin-top: 50px;
+    font-size: 3.5em;
+  }
+}

@@ -11,12 +11,18 @@
   </head>
   <body>
     <div class='page'>
-      <div class='main_menu'>
+      <div id='main_menu' class='main_menu'>
+        <a class='close'>
+          <span onclick="closeMenu()">x</span>
+        </a>
         <a href='/index.html'>Home</a>
         <a href='/story.html'>Our Story</a>
         <a class='active' href='/registry.html'>Registry</a>
         <a href='/wedding'>Our Wedding</a>
         <a href='/rsvp.html'>RSVP</a>
+      </div>
+      <div id='mobile_menu'>
+        <img onclick="openMenu()" src='/media/hamburger.png' />
       </div>
       <div class='contents'>
         <div class='column'>
@@ -41,5 +47,6 @@
         </div>
       </div>
     </div>
+    <script type='text/javascript' src='js/actions.js'></script>
   </body>
 </html>

@@ -11,7 +11,7 @@
 }
 
 .title{
-  width: calc(50% - 160px);
+  width: 100%;
 }
 
 .versions{
@@ -41,8 +41,8 @@
 
 .story{
   position: relative;
-  width: 50%;
-  height: 300px;
+  width: calc(100% - 160px);
+  height: 625px;
   border-left:2px solid #5C6244;
   margin-bottom: 15px;
 }
@@ -60,6 +60,39 @@
   transition-duration: 0.5s;
 }
 
-img{
+.banner{
   width: 100%;
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 800px) {
+  .title{
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .versions{
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .versions .tab{
+    width: calc(50% - 5px);
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .story{
+    border-top:2px solid #5C6244;
+    border-left: 0px;
+    width: 100%;
+  }
+
+  .text{
+    padding: 15px 0px;
+    font-size: 1.25em;
+  }
 }

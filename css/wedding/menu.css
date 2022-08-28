@@ -31,6 +31,7 @@
 
 .contents{
   width: 850px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 25px 0px;
   display: flex;
@@ -108,4 +109,27 @@
   margin-bottom: 30px;
   border-bottom: 2px solid #FFFFFF;
   width: 200px;
+}
+
+@media only screen and (max-width: 800px){
+  .menu-wrapper{
+    padding-right: 10px;
+  }
+
+  .wedding_menu_wrapper{
+    width: 100%;
+    background: none;
+    padding-top: 0px;
+  }
+
+  .dish{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .dish .course{
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+  }
 }
