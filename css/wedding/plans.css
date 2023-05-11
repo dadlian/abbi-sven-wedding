@@ -19,6 +19,20 @@
   text-align: center;
 }
 
+.heading{
+  color: #dcbf85;
+  text-align: center;
+  font-family: 'Agrandir Bold', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 1em;
+  letter-spacing: 0.3em;
+}
+
+.column{
+  width: calc(50% - 20px);
+}
+
 .subtitle{
   font-family: 'Agrandir', sans-serif;
   width: 100%;
@@ -37,6 +51,29 @@ p{
 
 .main_menu{
   margin-bottom: 10px;
+}
+
+.event{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.date{
+  font-family: 'Agrandir Bold', sans-serif;
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 0px;
+}
+
+.details{
+  font-family: 'Agrandir', sans-serif;
+  text-align: center;
+  font-size: 1.6em;
+  margin-top: 0px;
+}
+
+.big_day{
+  color: red;
 }
 
 @media only screen and (max-width: 800px){
