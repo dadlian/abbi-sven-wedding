@@ -55,6 +55,8 @@
   padding: 25px 0px;
   padding-bottom: 0px;
   font-family: 'Agrandir', sans-serif;
+  max-height: 575px;
+  overflow-y: scroll;
 }
 
 .event{
@@ -109,4 +111,3 @@
   .event.no_bottom{
     margin-bottom: 0px;
   }
-}
