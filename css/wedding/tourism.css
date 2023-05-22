@@ -12,6 +12,30 @@
   margin: 0 auto;
 }
 
+.columns{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.heading{
+  color: #5B6244;
+  font-family: 'Agrandir Bold', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 1em;
+  letter-spacing: 0.3em;
+}
+
+.column{
+  width: calc(50% - 20px);
+}
+
+ul{
+  font-family: 'Agrandir', sans-serif;
+  font-size: 1.25em;
+}
+
 img{
   width: 100%;
 }
@@ -23,5 +47,9 @@ img{
 @media only screen and (max-width: 800px){
   .contents a{
     font-size: 0.85em;
+  }
+
+  .column{
+    width: 100%;
   }
 }

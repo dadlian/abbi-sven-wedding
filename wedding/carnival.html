@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel='stylesheet' href='/css/global.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='/css/wedding/carnival.css' type='text/css' media='all' />
+
+    <title>Carnival 2023 | Our Wedding | Abbi & Sven Are Getting Married!</title>
+  </head>
+  <body>
+    <div class='page'>
+      <div id='main_menu' class='main_menu'>
+        <a class='close'>
+          <span onclick="closeMenu()">x</span>
+        </a>
+        <a href='/index.html'>Home</a>
+        <a href='/story.html'>Our Story</a>
+        <a class='active' href='/wedding'>Our Wedding</a>
+        <a href='/rsvp.html'>RSVP</a>
+        <a href='/registry.html'>Registry</a>
+        <a href='/playlist.html'>Playlist</a>
+      </div>
+      <div id='mobile_menu'>
+        <img onclick="openMenu()" src='/media/hamburger.png' />
+      </div>
+      <div class='wedding_menu_wrapper'>
+        <div class='wedding_menu'>
+          <a href='/wedding/menu.html'>Menu</a>
+          <a href='/wedding/itinerary.html'>Itinerary</a>
+          <a href='/wedding/travel.html'>Travel & Accommodation</a>
+          <a href='/wedding/tourism.html'>Tourism</a>
+          <a href='/wedding/plans.html'>Week Plans</a>
+          <a class='active' href='/wedding/carnival.html'>Carnival 2023</a>
+        </div>
+      </div>
+      <div class='contents'>
+        <h1 class='title'>Carnival 2023</h1>
+        <div id='events' class='itinerary'>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script type='text/javascript' src='../js/actions.js'></script>
+    <script type='text/javascript' src='../js/carnival.js'></script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+.page{
+  background-image: url('../../media/home_bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 1575px 100%;
+}
+
+.main_menu{
+  margin-bottom: 0px;
+}
+
+.main_menu a{
+  color: #FFFFFF;
+}
+
+.main_menu a:hover,
+.main_menu a.active{
+  border-bottom:2px solid #FFFFFF;
+}
+
+.contents{
+  width: 850px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wedding_menu_wrapper{
+  background-color: #FFFFFF;
+  width: 885px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.wedding_menu{
+  margin-bottom: -5px;
+}
+
+.title{
+  width: 100%;
+  color: #5C6244;
+  text-align: center;
+}
+
+.itinerary{
+  width: 100%;
+  background-color: #5C6244;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0px;
+  padding-bottom: 0px;
+  font-family: 'Agrandir', sans-serif;
+}
+
+.event{
+  display: flex;
+  margin-bottom: 25px;
+  width: 625px;
+  font-size: 1.25em;
+}
+
+.event .time{
+  text-transform: uppercase;
+  width: 225px;
+  font-family: 'Agrandir Bold', sans-serif;
+}
+
+.event .details{
+	width: 400px;
+}
+
+.event .name{
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+@media only screen and (max-width: 800px){
+  .wedding_menu_wrapper{
+    width: 100%;
+    background: none;
+    padding-top: 0px;
+  }
+
+  .event{
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 10px;
+  }
+
+  .event .time{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+  }
+
+  .event .name{
+    font-size: 0.9em;
+  }
+
+  .event .description{
+    font-size: 0.9em;
+  }
+
+  .event.no_bottom{
+    margin-bottom: 0px;
+  }
+}
